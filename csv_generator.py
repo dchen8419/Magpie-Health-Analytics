@@ -16,7 +16,6 @@ M classes
 Return average grade per student across classes
 """
 
-# TODO: Support N exams flexibly, not just the given amount here
 HEADERS = [
     "FIRST",
     "LAST",

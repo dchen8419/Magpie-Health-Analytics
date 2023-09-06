@@ -1,43 +1,43 @@
-FULL NAME,AGE,HOBBY,CLASS,EXAM_1_GRADE,EXAM_2_GRADE,EXAM_3_GRADE,EXAM_4_GRADE,CLASS_AVERAGE
-Bil Westerfield,14,Basketball,Physics,98,25,51,32,51.5
-Bil Westerfield,14,Basketball,Chemistry,34,63,53,20,42.5
-Bil Westerfield,14,Basketball,Calculus,86,38,33,1,39.5
-Bil Westerfield,14,Basketball,World History,57,50,96,17,55.0
-Bil Westerfield,14,Basketball,American History,29,47,26,95,49.25
-Bil Westerfield,14,Basketball,Biology,7,86,83,62,59.5
-Bill Edwards,16,Dance,Physics,81,3,29,35,37.0
-Bill Edwards,16,Dance,Chemistry,67,19,62,86,58.5
-Bill Edwards,16,Dance,Calculus,75,49,82,18,56.0
-Bill Edwards,16,Dance,World History,1,79,31,16,31.75
-Bill Edwards,16,Dance,American History,83,24,74,37,54.5
-Bill Edwards,16,Dance,Biology,44,90,72,38,61.0
-David Chen,14,Football,Physics,90,5,19,81,48.75
-David Chen,14,Football,Chemistry,80,70,47,81,69.5
-David Chen,14,Football,Calculus,66,30,99,90,71.25
-David Chen,14,Football,World History,45,28,39,47,39.75
-David Chen,14,Football,American History,35,85,0,70,47.5
-David Chen,14,Football,Biology,57,64,53,30,51.0
-William Chen,16,Dance,Physics,56,67,67,70,65.0
-William Chen,16,Dance,Chemistry,10,77,76,38,50.25
-William Chen,16,Dance,Calculus,13,66,61,57,49.25
-William Chen,16,Dance,World History,18,54,20,68,40.0
-William Chen,16,Dance,American History,3,83,61,29,44.0
-William Chen,16,Dance,Biology,31,63,77,28,49.75
-Rafferty Russell,16,Band,Physics,1,9,61,27,24.5
-Rafferty Russell,16,Band,Chemistry,3,29,5,54,22.75
-Rafferty Russell,16,Band,Calculus,80,33,10,88,52.75
-Rafferty Russell,16,Band,World History,70,95,19,0,46.0
-Rafferty Russell,16,Band,American History,90,2,61,54,51.75
-Rafferty Russell,16,Band,Biology,45,3,3,12,15.75
-Laura Hunt,14,Starcraft,Physics,76,76,43,19,53.5
-Laura Hunt,14,Starcraft,Chemistry,75,92,86,34,71.75
-Laura Hunt,14,Starcraft,Calculus,9,99,94,46,62.0
-Laura Hunt,14,Starcraft,World History,62,59,89,89,74.75
-Laura Hunt,14,Starcraft,American History,76,90,33,80,69.75
-Laura Hunt,14,Starcraft,Biology,8,2,89,17,29.0
-John Cena,16,Band,Physics,87,23,27,48,46.25
-John Cena,16,Band,Chemistry,77,100,18,12,51.75
-John Cena,16,Band,Calculus,4,96,98,29,56.75
-John Cena,16,Band,World History,55,11,31,89,46.5
-John Cena,16,Band,American History,9,95,2,86,48.0
-John Cena,16,Band,Biology,3,43,35,100,45.25
+FULL_NAME,AGE,HOBBY,CLASS,EXAM_1_GRADE,EXAM_2_GRADE,EXAM_3_GRADE,EXAM_4_GRADE,CLASS_AVERAGE,GPA
+Bil Westerfield,14,Basketball,Physics,98,25,51,32,51.5,49.541666666666664
+Bil Westerfield,14,Basketball,Chemistry,34,63,53,20,42.5,49.541666666666664
+Bil Westerfield,14,Basketball,Calculus,86,38,33,1,39.5,49.541666666666664
+Bil Westerfield,14,Basketball,World History,57,50,96,17,55.0,49.541666666666664
+Bil Westerfield,14,Basketball,American History,29,47,26,95,49.25,49.541666666666664
+Bil Westerfield,14,Basketball,Biology,7,86,83,62,59.5,49.541666666666664
+Bill Edwards,16,Dance,Physics,81,3,29,35,37.0,49.791666666666664
+Bill Edwards,16,Dance,Chemistry,67,19,62,86,58.5,49.791666666666664
+Bill Edwards,16,Dance,Calculus,75,49,82,18,56.0,49.791666666666664
+Bill Edwards,16,Dance,World History,1,79,31,16,31.75,49.791666666666664
+Bill Edwards,16,Dance,American History,83,24,74,37,54.5,49.791666666666664
+Bill Edwards,16,Dance,Biology,44,90,72,38,61.0,49.791666666666664
+David Chen,14,Football,Physics,90,5,19,81,48.75,54.625
+David Chen,14,Football,Chemistry,80,70,47,81,69.5,54.625
+David Chen,14,Football,Calculus,66,30,99,90,71.25,54.625
+David Chen,14,Football,World History,45,28,39,47,39.75,54.625
+David Chen,14,Football,American History,35,85,0,70,47.5,54.625
+David Chen,14,Football,Biology,57,64,53,30,51.0,54.625
+William Chen,16,Dance,Physics,56,67,67,70,65.0,49.708333333333336
+William Chen,16,Dance,Chemistry,10,77,76,38,50.25,49.708333333333336
+William Chen,16,Dance,Calculus,13,66,61,57,49.25,49.708333333333336
+William Chen,16,Dance,World History,18,54,20,68,40.0,49.708333333333336
+William Chen,16,Dance,American History,3,83,61,29,44.0,49.708333333333336
+William Chen,16,Dance,Biology,31,63,77,28,49.75,49.708333333333336
+Rafferty Russell,16,Band,Physics,1,9,61,27,24.5,35.583333333333336
+Rafferty Russell,16,Band,Chemistry,3,29,5,54,22.75,35.583333333333336
+Rafferty Russell,16,Band,Calculus,80,33,10,88,52.75,35.583333333333336
+Rafferty Russell,16,Band,World History,70,95,19,0,46.0,35.583333333333336
+Rafferty Russell,16,Band,American History,90,2,61,54,51.75,35.583333333333336
+Rafferty Russell,16,Band,Biology,45,3,3,12,15.75,35.583333333333336
+Laura Hunt,14,Starcraft,Physics,76,76,43,19,53.5,60.125
+Laura Hunt,14,Starcraft,Chemistry,75,92,86,34,71.75,60.125
+Laura Hunt,14,Starcraft,Calculus,9,99,94,46,62.0,60.125
+Laura Hunt,14,Starcraft,World History,62,59,89,89,74.75,60.125
+Laura Hunt,14,Starcraft,American History,76,90,33,80,69.75,60.125
+Laura Hunt,14,Starcraft,Biology,8,2,89,17,29.0,60.125
+John Cena,16,Band,Physics,87,23,27,48,46.25,49.083333333333336
+John Cena,16,Band,Chemistry,77,100,18,12,51.75,49.083333333333336
+John Cena,16,Band,Calculus,4,96,98,29,56.75,49.083333333333336
+John Cena,16,Band,World History,55,11,31,89,46.5,49.083333333333336
+John Cena,16,Band,American History,9,95,2,86,48.0,49.083333333333336
+John Cena,16,Band,Biology,3,43,35,100,45.25,49.083333333333336
