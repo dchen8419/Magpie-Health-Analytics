@@ -3,6 +3,7 @@ import pandas as pd
 # Read the CSV file
 final_student_grades = pd.DataFrame()
 df = pd.read_csv('student_grades.csv')
+
 # Combine "FIRST" and "LAST" columns into a single "FULL NAME" column
 df['FULL_NAME'] = df['FIRST'] + ' ' + df['LAST']
 
@@ -17,12 +18,13 @@ df['CLASS_AVERAGE'] = df[['EXAM_1_GRADE','EXAM_2_GRADE','EXAM_3_GRADE','EXAM_4_G
 
 #Create a new column to calculate GPA
 df['GPA'] = df[['FULL_NAME', 'CLASS_AVERAGE']].groupby(['FULL_NAME']).transform('mean')
-# print(df)
 
-#Create filter out the common names and create the classes are columns with the values in the rows
-df.pivot_table(index='FULL_NAME', columns='CLASS', values='CLASS_AVERAGE')
-
+#Create pivot for new rows and columns
+df = df.pivot(index=['FULL_NAME', 'GPA', 'HOBBY', 'AGE'], columns='CLASS', values='CLASS_AVERAGE').reset_index().rename_axis()
 print(df)
+
+
+
 
 # Save the updated DataFrame to a new CSV file
 df.to_csv('final_student_grades.csv', index=False)
