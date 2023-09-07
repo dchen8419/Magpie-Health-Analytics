@@ -77,7 +77,7 @@ for student in STUDENTS:
 
         rows.append(copy.deepcopy(STUDENTS[student]))
 
-#print(STUDENTS.get("Bill Edwards"))
+#print(STUDENTS.get("William Chen"))
 #print(rows)
 # print(len(rows))
 
