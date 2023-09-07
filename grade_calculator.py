@@ -20,7 +20,7 @@ df['CLASS_AVERAGE'] = df[['EXAM_1_GRADE','EXAM_2_GRADE','EXAM_3_GRADE','EXAM_4_G
 df['GPA'] = df[['FULL_NAME', 'CLASS_AVERAGE']].groupby(['FULL_NAME']).transform('mean')
 
 #Create pivot for new rows and columns
-df = df.pivot(index=['FULL_NAME', 'GPA', 'HOBBY', 'AGE'], columns='CLASS', values='CLASS_AVERAGE').reset_index().rename_axis()
+df = df.pivot(index=['FULL_NAME', 'AGE', 'HOBBY', 'GPA'], columns='CLASS', values='CLASS_AVERAGE').reset_index().rename_axis()
 print(df)
 
 
