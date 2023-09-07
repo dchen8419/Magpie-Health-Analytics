@@ -1,8 +1,8 @@
-FULL_NAME,GPA,HOBBY,AGE,American History,Biology,Calculus,Chemistry,Physics,World History
-Bil Westerfield,49.541666666666664,Basketball,14,49.25,59.5,39.5,42.5,51.5,55.0
-Bill Edwards,49.791666666666664,Dance,16,54.5,61.0,56.0,58.5,37.0,31.75
-David Chen,54.625,Football,14,47.5,51.0,71.25,69.5,48.75,39.75
-John Cena,49.083333333333336,Band,16,48.0,45.25,56.75,51.75,46.25,46.5
-Laura Hunt,60.125,Starcraft,14,69.75,29.0,62.0,71.75,53.5,74.75
-Rafferty Russell,35.583333333333336,Band,16,51.75,15.75,52.75,22.75,24.5,46.0
-William Chen,49.708333333333336,Dance,16,44.0,49.75,49.25,50.25,65.0,40.0
+FULL_NAME,AGE,HOBBY,GPA,American History,Biology,Calculus,Chemistry,Physics,World History
+Bil Westerfield,14,Basketball,49.541666666666664,49.25,59.5,39.5,42.5,51.5,55.0
+Bill Edwards,16,Dance,49.791666666666664,54.5,61.0,56.0,58.5,37.0,31.75
+David Chen,14,Football,54.625,47.5,51.0,71.25,69.5,48.75,39.75
+John Cena,16,Band,49.083333333333336,48.0,45.25,56.75,51.75,46.25,46.5
+Laura Hunt,14,Starcraft,60.125,69.75,29.0,62.0,71.75,53.5,74.75
+Rafferty Russell,16,Band,35.583333333333336,51.75,15.75,52.75,22.75,24.5,46.0
+William Chen,16,Dance,49.708333333333336,44.0,49.75,49.25,50.25,65.0,40.0
